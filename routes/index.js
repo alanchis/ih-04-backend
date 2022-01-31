@@ -19,6 +19,10 @@ router.get("/about", (req, res) => {
     res.send("este es el about")
 })
 
+router.get("/perrito", (req, res) => {
+    res.render("index")
+})
+
 
 
 // 3. EXPORTACIÓN
