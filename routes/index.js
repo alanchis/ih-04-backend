@@ -12,8 +12,13 @@ router.get("/", (req, res) => {
 })
 
 router.get("/contacto", (req, res) => {
-    res.send("contacto")
+    res.send("este es un contacto")
 })
+
+router.get("/about", (req, res) => {
+    res.send("este es el about")
+})
+
 
 
 // 3. EXPORTACIÓN
