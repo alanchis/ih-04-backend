@@ -3,4 +3,4 @@ node_modules/
 
 #Archivos ignorados
 package-lock.json
-
+.env

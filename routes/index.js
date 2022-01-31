@@ -11,6 +11,10 @@ router.get("/", (req, res) => {
 
 })
 
+router.get("/contacto", () => {
+    res.send("contacto")
+})
+
 
 // 3. EXPORTACIÓN
 module.exports = router
